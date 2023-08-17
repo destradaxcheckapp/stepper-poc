@@ -1,0 +1,24 @@
+.app {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  padding: 10px;
+}
+
+.nav {
+  align-items: center;
+  background-color: whitesmoke;
+  display: flex;
+  flex: 0 0 40px;
+
+  ul {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+  }
+}
